@@ -1,0 +1,13 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to Scripture Journal!</h1>
+    <a asp-page="/Journals/Create">Get started by writing a scripture note.</a>
+    <br>
+    <p>- OR -</p>
+    <a asp-page="/Journals/Index">view previous journal entries.</a>
+</div>
